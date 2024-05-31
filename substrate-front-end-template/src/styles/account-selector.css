@@ -1,0 +1,64 @@
+.logged-out-container {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(38, 39, 44);
+  z-index: 10;
+
+  overflow: hidden;
+
+  padding: 15px;
+}
+
+.account-container {
+  padding: 5px;
+
+  display: flex;
+  flex-direction: row;
+  -moz-box-pack: start;
+  justify-content: flex-start;
+  -moz-box-align: center;
+  align-items: center;
+  height: 70px;
+  border-radius: 4px;
+
+  font-family: Nunito, sans-serif;
+
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: left;
+
+  background: rgb(26, 27, 32);
+  border: 1px solid rgb(48, 48, 48);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.account-container .name {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 2px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 300px;
+  white-space: nowrap;
+  font-family: Nunito, sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+}
+
+.account-container .address {
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  font-family: Nunito, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  line-height: 26px;
+}
